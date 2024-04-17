@@ -1,0 +1,82 @@
+/*-- scss:defaults --*/
+
+/* basic colors for highlighting themes */
+/* based off of the PTOL color scheme */
+$primary: 		#984340 		!default;
+$secondary: 	#eeb954			!default;
+$success: 		#d75b4c			!default;
+$info: 				#f8e584 		!default;
+$warning: 		#532d1f 		!default;
+$danger: 			#e58c51 		!default;
+$light: 			#ffffcc			!default;
+$dark: 				#191900 		!default;
+
+/* highlighting colors */
+$my-grey: #455964;
+$my-blue: #2096f2;
+$my-red: #984340;
+
+$my-orange: #ff7043;
+$my-yellow: #f0941f;
+$my-light: #90a19d;
+$my-green: #196774;
+$my-dark: #363432;
+
+/*-- scss:rules --*/
+
+.blue {
+	color: $my-blue;
+	font-weight: bold;
+}
+
+.orange {
+	color: $my-orange;
+	font-weight: bold;
+}
+
+.yellow {
+	color: $my-yellow;
+	font-weight: bold;
+}
+
+.dark {
+	color: $my-dark;
+	font-weight: bold;
+}
+
+.light {
+	color: $my-light;
+	font-weight: bold;
+}
+
+.red {
+	color: $my-red;
+	font-weight: bold;
+}
+
+.green {
+	color: $my-green;
+	font-weight: bold;
+}
+
+.grey {
+	color: $my-grey;
+	font-weight: normal;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.smallest {
+	font-size: 22px;
+}
+
