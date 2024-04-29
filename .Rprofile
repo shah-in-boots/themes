@@ -6,8 +6,8 @@ if (interactive()) {
 # Colors
 if (interactive() && requireNamespace("rsthemes", quietly = TRUE)) {
 	# Set preferred themes if not handled elsewhere..
-	rsthemes::set_theme_light("Solarized Light {rsthemes}")  # light theme
-	rsthemes::set_theme_dark("Solarized Dark {rsthemes}") # dark theme
+	rsthemes::set_theme_light("Solarized Light")  # light theme
+	rsthemes::set_theme_dark("Solarized Dark") # dark theme
 
 	# Whenever the R session restarts inside RStudio...
 	setHook("rstudio.sessionInit", function(isNewSession) {
