@@ -2,9 +2,7 @@
 
 $accent: #ffb954;
 
-/* education */
-
-/* all formats */
+/* General styling */
 
 .cvdate {
   float: right;
@@ -69,100 +67,3 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   page-break-before: always;
   page-break-after: always;
 */
-
-@media print {
-  @page {
-      size: a4 portrait;
-      margin: 0.1in; // set margins
-      counter-increment: page;
-      @bottom-center {
-        content: counter(page)
-      }
-  }
-
-  .no-print {
-      display: none;
-  }
-
-  .print-only {
-      display: block;
-  }
-
-  .contact-block {
-      margin-top: 0%;
-      text-align: center;
-  }
-
-  html {
-    font-family: 'Arial', sans-serif;
-  }
-
-  header {
-    display: none;
-  }
-
-  header h1.title {
-      display: none;
-  }
-
-  header .author {
-    font-size: 2em;
-    font-weight: 500;
-    color: $accent;
-    text-align: center;
-    margin-block-end: 0em;
-    margin-bottom: 0;
-    text-transform: capitalize;
-  }
-
-  html {
-    font-family: 'Arial', sans-serif;
-  }
-
-  body {
-    font-family: 'Arial', sans-serif;
-    font-size: 12pt;
-    line-height: 1.5;
-    margin: 1in;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-  }
-
-  h1 {
-    font-size: 24pt;
-    border-bottom: 2px solid #000;
-    padding-bottom: 0.2em;
-  }
-
-  h2 {
-    font-size: 18pt;
-    border-bottom: 1px solid #000;
-    padding-bottom: 0.1em;
-  }
-
-  p {
-    margin: 0.5em 0;
-    text-align: justify;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0em;
-  }
-
-  ul li{
-    font-size: smaller;
-  }
-
-  a {
-    text-decoration: none;
-    font-weight: 500;
-    color: $accent;
-  }
-
-}
