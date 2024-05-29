@@ -19,6 +19,15 @@ html {
   font-family: 'Arial', sans-serif;
 }
 
+header h1.title {
+  display: none;
+}
+
+/* Styling the author section */
+header .quarto-title-meta {
+  display: none;
+}
+
 h1 {
   font-size: x-large;
   text-align: center;
