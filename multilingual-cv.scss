@@ -115,15 +115,19 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
     text-transform: capitalize;
   }
 
+  html {
+    font-family: 'Arial', sans-serif;
+  }
+
   body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Arial', sans-serif;
     font-size: 12pt;
     line-height: 1.5;
     margin: 1in;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Arial', sans-serif;
     font-weight: bold;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
