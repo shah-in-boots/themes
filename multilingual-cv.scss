@@ -73,7 +73,7 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
 @media print {
   @page {
       size: a4 portrait;
-      margin: 0.5in; // set margins to 1/2 inch
+      margin: 0.1in; // set margins
       counter-increment: page;
       @bottom-center {
         content: counter(page)
@@ -98,7 +98,7 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   }
 
   header {
-    margin-block-end: 5em;
+    display: none;
   }
 
   header h1.title {
