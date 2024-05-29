@@ -1,25 +1,25 @@
 /* PDF and print styles */
 @media print {
   @page {
-      size: a4 portrait;
-      margin: 0.5in;
-      counter-increment: page;
-      @bottom-center {
-        content: counter(page)
-      }
+    size: a4 portrait;
+    margin: 0.5in;
+    counter-increment: page;
+    @bottom-center {
+      content: counter(page)
+    }
   }
 
   .no-print {
-      display: none;
+    display: none;
   }
 
   .print-only {
-      display: block;
+    display: block;
   }
 
   .contact-block {
-      margin-top: 0%;
-      text-align: center;
+    margin-top: 0%;
+    text-align: center;
   }
 
   /* Custom items */
@@ -31,7 +31,7 @@
   /* General CSS items */
 
   html {
-    font-family: "Arial", serif;
+    font-family: "Arial", sans-serif;
   }
 
   h1, h2, h3 {
@@ -88,6 +88,6 @@
   a {
     text-decoration: none;
     font-weight: 700;
-    color: #00767b;
+    color: #42a7c6;
   }
 }
