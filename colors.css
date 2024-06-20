@@ -1,0 +1,67 @@
+/*-- scss:defaults --*/
+/* basic colors for highlighting themes */
+/* based off of the PTOL color scheme */
+/* highlighting colors */
+/*-- scss:rules --*/
+.blue {
+  color: #42a7c6;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ffb954;
+  font-weight: bold;
+}
+
+.yellow {
+  color: #f0941f;
+  font-weight: bold;
+}
+
+.dark {
+  color: #363432;
+  font-weight: bold;
+}
+
+.light {
+  color: #90a19d;
+  font-weight: bold;
+}
+
+.red {
+  color: #d11807;
+  font-weight: bold;
+}
+
+.green {
+  color: #c6622a;
+  font-weight: bold;
+}
+
+.grey {
+  color: #a01813;
+  font-weight: normal;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.smallest {
+  font-size: 22px;
+}
+
+.dates {
+  float: right;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=colors.css.map */
