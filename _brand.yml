@@ -1,0 +1,23 @@
+color:
+  palette:
+    red: 
+    orange: 
+    yellow: 
+    green: 
+    blue: 
+    violet: 
+    indigo: 
+    white:
+    black:
+  foreground:
+  background:
+  primary:
+  secondary:
+  tertiary:
+  success:
+  info:
+  warning:
+  danger:
+  light:
+  dark:
+
