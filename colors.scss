@@ -11,10 +11,11 @@ $warning: #c6622a;
 $danger: #d11807;
 $dark: #a01813;
 
+
 /* highlighting colors */
 $my-blue: $secondary;
 $my-red: $danger;
-$my-green: $warning;
+$my-green: $success;
 $my-orange: $primary;
 $my-grey: $dark;
 
@@ -74,6 +75,10 @@ $my-dark: #363432;
 
 .center {
 	text-align: center;
+}
+
+.bigger {
+	font-size: 48px;
 }
 
 .smallest {
