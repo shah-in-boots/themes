@@ -1,23 +1,9 @@
 color:
   palette:
-    red: 
-    orange: 
-    yellow: 
-    green: 
-    blue: 
-    violet: 
-    indigo: 
-    white:
-    black:
-  foreground:
-  background:
-  primary:
-  secondary:
-  tertiary:
-  success:
-  info:
-  warning:
-  danger:
-  light:
-  dark:
-
+    light: "#eceada"
+    dark: "#1d1c1e"
+    red: "#9c435d"
+    yellow: "#f9c14a"
+  background: light
+  foreground: dark
+  primary: red

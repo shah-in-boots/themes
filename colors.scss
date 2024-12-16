@@ -14,7 +14,6 @@ $dark: #a01813;
 
 /* highlighting colors */
 $my-blue: $secondary;
-$my-red: $danger;
 $my-green: $success;
 $my-orange: $primary;
 $my-grey: $dark;
@@ -51,7 +50,7 @@ $my-dark: #363432;
 }
 
 .red {
-	color: $my-red;
+	color: $brand-red;
 	font-weight: bold;
 }
 
